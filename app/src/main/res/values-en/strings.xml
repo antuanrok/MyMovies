@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Movies</string>
+    <string name="application_json">application/json</string>
+    <string name="posterOfMovie">Movie poster</string>
+    <string name="mostPopular">The most popular</string>
+    <string name="topRated">The most rated</string>
+    <string name="add_to_favourite">Movie added to favorites</string>
+    <string name="del_from_favourite">Movie removed from favorites</string>
+    <string name="item_main">Main</string>
+    <string name="item_favourite">Favourites</string>
+    <string name="launch_trailer">Launch the trailer</string>
+    <string name="item_Detail">About the film</string>
+    <string name="item_Reviews">Reviews</string>
+    <string name="item_Videos">Video</string>
+    <string name="reviews_About">Reviews of the film:</string>
+    <string name="videos_About">Video for the film:</string>
+    <string name="btn_add_to_fav">Add favorites button</string>
+    <string name="text_loading">Loading...</string>
+</resources>

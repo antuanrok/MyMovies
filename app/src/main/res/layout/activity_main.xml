@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <Switch
+        android:id="@+id/switchPopularity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewPopularity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_8dp"
+        android:text="@string/mostPopular"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sp_textOfSwitch"
+        android:onClick="onClickSetPop"
+        app:layout_constraintBottom_toBottomOf="@+id/switchPopularity"
+        app:layout_constraintEnd_toStartOf="@+id/switchPopularity"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTopRated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8dp"
+        android:text="@string/topRated"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sp_textOfSwitch"
+        android:onClick="onClickSetTopRated"
+        app:layout_constraintBottom_toBottomOf="@+id/switchPopularity"
+        app:layout_constraintStart_toEndOf="@+id/switchPopularity"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPosters"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchPopularity" />
+
+    <ProgressBar
+        android:id="@+id/progressBarLoading"
+        android:layout_width="@dimen/_42dp_progressBar"
+        android:layout_height="@dimen/_42dp_progressBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/switchPopularity"
+        android:visibility="gone"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

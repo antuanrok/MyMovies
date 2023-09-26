@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Movies</string>
+    <string name="application_json">application/json</string>
+    <string name="posterOfMovie">Постер к фильму</string>
+    <string name="mostPopular">Самые популярные</string>
+    <string name="topRated">Самые рейтинговые</string>
+    <string name="add_to_favourite">Фильм добавлен в избранное</string>
+    <string name="del_from_favourite">Фильм удалён из избранного</string>
+    <string name="item_main">Главная</string>
+    <string name="item_favourite">Избранное</string>
+    <string name="launch_trailer">Запустить трейлер</string>
+    <string name="item_Detail">О фильме</string>
+    <string name="item_Reviews">Отзывы</string>
+    <string name="item_Videos">Видео</string>
+    <string name="reviews_About">Отзывы о фильме:</string>
+    <string name="videos_About">Видео к фильму:</string>
+    <string name="btn_add_to_fav">Кнопка добавить избранное</string>
+    <string name="text_loading">Подгружаю...</string>
+</resources>

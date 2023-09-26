@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_of_heart">60dp</dimen>
+    <dimen name="_16dp">16dp</dimen>
+    <dimen name="_1dp">1dp</dimen>
+    <dimen name="_28dp">28dp</dimen>
+    <dimen name="_2dp">2dp</dimen>
+    <dimen name="_8dp">8dp</dimen>
+    <dimen name="_18sp_textOfSwitch">18sp</dimen>
+    <dimen name="_42dp_progressBar">42dp</dimen>
+    <dimen name="_60dp_play">60dp</dimen>
+</resources>
